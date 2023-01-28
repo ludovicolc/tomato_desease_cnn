@@ -5,7 +5,6 @@ that can greatly reduce the yield and quality of the crop, and early detection a
 
 ## Project's summary
 
-A web application for classifying tomato leaf diseases using a CNN model implemented with PyTorch.
 The dataset used for training and evaluating the model is from Kaggle.
 The model was trained on 9 different types of leaf diseases (and 1 healthy leaf class), using transfer learning with a pre-trained ResNet50 model. 
 
@@ -38,7 +37,6 @@ As the figure above illustrates, after the 20th epoch, there is still some room 
 
 ## Final considerations
 The final model has superior overall performance, but there is a discrepancy in the calibration of the different classes, which could impact decision-making post-classification. Specifically, the "healthy" class is more accurately calibrated in the intermediate model (with the best parameters and 20 epochs) than the final model. 
-For the application the final model was selected based on the overall performance. 
 
 *One could argue that having a better "healthy" class calibration is better because is preferable to predict a diseased plant, verify the leaf,*
 *and find that it is healthy, rather than predict a healthy plant and later discover that it had a disease that has since progressed. Modifying*
