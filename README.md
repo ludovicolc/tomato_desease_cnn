@@ -43,7 +43,7 @@ The final model has superior overall performance, but there is a discrepancy in 
 *the class weights in the loss function may assist in achieving a different calibration that addresses specific issues.*
 
 (intermediate model healthy: precision 0.99 | recall 0.99 | f1 score 0.99)
-![Immagine 2023-01-27 122151_a](https://user-images.githubusercontent.com/105851039/215074675-3f52cedc-16bd-4938-96a7-627f7ead7f3a.png)
+![1](https://user-images.githubusercontent.com/105851039/235435087-cbdafd5a-d8f9-4d02-8039-3d343e651ac6.jpg)
 
 (final model healthy: precision 0.98 | recall 1.00 | f1 score 0.99)
 ![Immagine 2023-01-27 122442_b](https://user-images.githubusercontent.com/105851039/215075068-4b8606c6-84a9-420a-958e-4ca9a4b9228b.png)
