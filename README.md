@@ -52,3 +52,5 @@ the class weights in the loss function may assist in achieving a different calib
 *The notebook and data are available, so if you wish to adjust the parameters and create a new model that is tailored to your specific problem, you have the resources to do so.*
 
 *More detailed information on the parameters selection and model optimization can be found in the accompanying notebook.* 
+
+*Note: This notebook includes an initial section on how to connect a Kaggle dataset to Google Colaboratory. This is intended to help users access the dataset and take advantage of the free GPU provided by Google Colaboratory. If you do not have access to a GPU, this connection will be particularly useful for running the analysis efficiently.*
