@@ -38,15 +38,15 @@ As the figure above illustrates, after the 20th epoch, there is still some room 
 ## Final considerations
 The final model has superior overall performance, but there is a discrepancy in the calibration of the different classes, which could impact decision-making post-classification. Specifically, the "healthy" class is more accurately calibrated in the intermediate model (with the best parameters and 20 epochs) than the final model. 
 
-*One could argue that having a better "healthy" class calibration is better because is preferable to predict a diseased plant, verify the leaf,*
-*and find that it is healthy, rather than predict a healthy plant and later discover that it had a disease that has since progressed. Modifying*
-*the class weights in the loss function may assist in achieving a different calibration that addresses specific issues.*
+One could argue that having a better "healthy" class calibration is better because is preferable to predict a diseased plant, verify the leaf,
+and find that it is healthy, rather than predict a healthy plant and later discover that it had a disease that has since progressed. Modifying
+the class weights in the loss function may assist in achieving a different calibration that addresses specific issues.
 
 (intermediate model healthy: precision 0.99 | recall 0.99 | f1 score 0.99)
 ![1](https://user-images.githubusercontent.com/105851039/235435087-cbdafd5a-d8f9-4d02-8039-3d343e651ac6.jpg)
 
 (final model healthy: precision 0.98 | recall 1.00 | f1 score 0.99)
-![Immagine 2023-01-27 122442_b](https://user-images.githubusercontent.com/105851039/215075068-4b8606c6-84a9-420a-958e-4ca9a4b9228b.png)
+![2](https://user-images.githubusercontent.com/105851039/235435361-aa71a106-9a09-4aa1-8378-b0f4f2ed2184.jpg)
 
 
 *The notebook and data are available, so if you wish to adjust the parameters and create a new model that is tailored to your specific problem, you have the resources to do so.*
